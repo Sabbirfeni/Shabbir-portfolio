@@ -1,5 +1,5 @@
 import React from 'react';
-import {About, Footer, Header, Skills, Testimonials, Works} from './container';
+import {About, Contact, Footer, Header, Skills, Testimonials, Works} from './container';
 import {Navbar} from './components';
 import './App.scss';
 
@@ -7,12 +7,13 @@ const App = () => {
   return (
     <div className='app'>
       <Navbar />
-      <About />
-      <Footer />
       <Header />
+      <About />
+      <Contact/>
+      <Works />
       <Skills />
       <Testimonials />
-      <Works />
+      <Footer />
     </div>
   )
 }
