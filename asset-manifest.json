@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Shabbir-portfolio/static/css/main.8de7c51a.css",
+    "main.css": "/Shabbir-portfolio/static/css/main.bcdfac34.css",
     "main.js": "/Shabbir-portfolio/static/js/main.f2a996e2.js",
     "static/media/about04.png": "/Shabbir-portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/Shabbir-portfolio/static/media/about02.7a3df03410ee756268ec.png",
@@ -28,11 +28,11 @@
     "static/media/skype.png": "/Shabbir-portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/Shabbir-portfolio/index.html",
     "static/media/circle.svg": "/Shabbir-portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.8de7c51a.css.map": "/Shabbir-portfolio/static/css/main.8de7c51a.css.map",
+    "main.bcdfac34.css.map": "/Shabbir-portfolio/static/css/main.bcdfac34.css.map",
     "main.f2a996e2.js.map": "/Shabbir-portfolio/static/js/main.f2a996e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8de7c51a.css",
+    "static/css/main.bcdfac34.css",
     "static/js/main.f2a996e2.js"
   ]
 }
