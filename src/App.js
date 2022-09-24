@@ -3,9 +3,11 @@ import {About, Contact, Footer, Header, Skills, Testimonials, Works} from './con
 import {Navbar} from './components';
 import './App.scss';
 
+
 const App = () => {
   return (
     <div className='app'>
+      
       <Navbar />
       <Header />
       <About />
