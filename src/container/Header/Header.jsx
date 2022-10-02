@@ -62,7 +62,11 @@ const Header = () => {
                     className="overlay_circle"
                 />
 
-                <motion.div
+              
+
+            </motion.div>
+
+            <motion.div
                     variants={scaleVariants}
                     whileInView={scaleVariants.whileInView}
                     className='app__header-circles'
@@ -74,10 +78,6 @@ const Header = () => {
                         
                     })}
                 </motion.div>
-
-            </motion.div>
-
-        
 
         </div>
     )
