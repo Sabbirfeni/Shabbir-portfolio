@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Shabbir-portfolio/static/css/main.bcdfac34.css",
-    "main.js": "/Shabbir-portfolio/static/js/main.f2a996e2.js",
+    "main.css": "/Shabbir-portfolio/static/css/main.c2fc3b3a.css",
+    "main.js": "/Shabbir-portfolio/static/js/main.1b741e4f.js",
     "static/media/about04.png": "/Shabbir-portfolio/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/Shabbir-portfolio/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/Shabbir-portfolio/static/media/about01.080509de05322b7aafda.png",
+    "static/media/bgIMG.png": "/Shabbir-portfolio/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/Shabbir-portfolio/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/profile.png": "/Shabbir-portfolio/static/media/profile.ee489764521abe34026b.png",
     "static/media/about03.png": "/Shabbir-portfolio/static/media/about03.c26c2547bb1a423cf283.png",
@@ -28,11 +29,11 @@
     "static/media/skype.png": "/Shabbir-portfolio/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/Shabbir-portfolio/index.html",
     "static/media/circle.svg": "/Shabbir-portfolio/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.bcdfac34.css.map": "/Shabbir-portfolio/static/css/main.bcdfac34.css.map",
-    "main.f2a996e2.js.map": "/Shabbir-portfolio/static/js/main.f2a996e2.js.map"
+    "main.c2fc3b3a.css.map": "/Shabbir-portfolio/static/css/main.c2fc3b3a.css.map",
+    "main.1b741e4f.js.map": "/Shabbir-portfolio/static/js/main.1b741e4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcdfac34.css",
-    "static/js/main.f2a996e2.js"
+    "static/css/main.c2fc3b3a.css",
+    "static/js/main.1b741e4f.js"
   ]
 }
