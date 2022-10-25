@@ -12,9 +12,30 @@ const App = () => {
       <Header />
       <About />
       <Works />
-      <Contact/>
       <Skills />
       <Testimonials />
+      <Contact/>
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
+      <Footer />
       <Footer />
     </div>
   )

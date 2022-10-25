@@ -8,20 +8,34 @@ import { images } from '../../constants';
 import './Works.scss';
 
 const works = [
-    {title: 'UI/UX developer', description: 'I am an expert UI/UX developer sing 2020', imageUrl: images.about03},
-    {title: 'Front-end developer', description: 'I am an expert front-end developer sing 2020', imageUrl: images.about02},
-    {title: 'React Native', description: 'I am an expert React Native developer sing 2020', imageUrl: images.about01},
+    {title: 'UI/UX developer', description: 'I am an expert UI/UX developer sing 2020', imageUrl: images.about03, tag: 'UI/UX'},
+    {title: 'Front-end developer', description: 'I am an expert front-end developer sing 2020', imageUrl: images.about02, tag: 'Web App'},
+    {title: 'React Native', description: 'I am an expert React Native developer sing 2020', imageUrl: images.about01, tag: 'Mobile App'},
+    {title: 'React Native', description: 'I am an expert React Native developer sing 2020', imageUrl: images.about01, tag: 'React JS'},
+    {title: 'React Native', description: 'I am an expert React Native developer sing 2020', imageUrl: images.about01, tag: 'UI/UX'},
 ]
 
 const Works = () => {
 
-    const [activeFilter, setactiveFilter] = useState('All');
+    const [activeFilter, setActiveFilter] = useState('All');
     const [animateCard, setAnimateCard] = useState({y: 0, opacity: 1})
 
  
 
     const handleWorkFilter = (item) => {
+        setActiveFilter(item);
+        setAnimateCard([{y: 100, opacity: 0}])
 
+        setTimeout(() => {
+            setAnimateCard([{y: 0, opacity: 1}]);
+
+            if(item == 'All') {
+                console.log('hi')
+            } else {
+                works = works.filter((workItem) => workItem.tag.includes(item));
+                console.log(works)
+            }
+        }, 500)
     }
     
     return(
@@ -101,4 +115,4 @@ const Works = () => {
     )
 };
 
-export default AppWrap(Works, 'works');
+export default AppWrap(Works, 'work');
